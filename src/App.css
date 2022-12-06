@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+body{
+  background-color: bisque;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.teams{
+  min-width: 170px;
+  min-height: 240px;
+  background-color: aqua;
+  border-radius: 16px;
 }
+.btn-container{
+  display: flex;
+  justify-content: space-around;
+}
+.score{
+  text-align: center;
+  font-size: 30px;
+}
+.team-name{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+}
+.btn{
+  height: 27px;
+  width: 45px;
+  border: none;
+  border-radius: 8px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: bold;
+}
+.heading{
+  text-align: center;
 }
